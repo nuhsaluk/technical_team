@@ -1,4 +1,4 @@
-@RestResource(urlMapping='/Cases/*')
+@RestResource(urlMapping='/Cases_tr1/*')
 global with sharing class CaseManagementIntegration {
     @HttpGet
     global static Case getCase() {

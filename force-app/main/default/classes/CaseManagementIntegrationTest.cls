@@ -4,7 +4,7 @@ private class CaseManagementIntegrationTest {
         Id recordId = createTestRecord();
         RestRequest request = new RestRequest();
         request.requestUri =
-            'https://yourInstance.my.salesforce.com/services/apexrest/Cases/'
+            'https://yourInstance.my.salesforce.com/services/apexrest/Cases_tr1/'
             + recordId;
         request.httpMethod = 'GET';
         RestContext.request = request;
@@ -25,7 +25,7 @@ private class CaseManagementIntegrationTest {
         Id recordId = createTestRecord();
         RestRequest request = new RestRequest();
         request.requestUri =
-            'https://yourInstance.my.salesforce.com/services/apexrest/Cases/'
+            'https://yourInstance.my.salesforce.com/services/apexrest/Cases_tr1/'
             + recordId;
         request.httpMethod = 'DELETE';
         RestContext.request = request;
